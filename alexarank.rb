@@ -7,9 +7,6 @@ require 'nokogiri'
 require 'open-uri'
 require 'sqlite3'
 
-#url = "http://www.alexa.com/siteinfo/cancaonova.com#"
-#url = "http://www.alexa.com/siteinfo/a12.com#"
-
 def ler_rank(url)
  #abre e le a pagina para doc.
  doc = Nokogiri::HTML(open("http://www.alexa.com/siteinfo/"+url))
