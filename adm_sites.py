@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Modulo: adm_sites.py
 # 
-# Esta rotina ainda nao trata se o tabela exeinte ou nao, ela considera
+# Esta rotina ainda nao trata se o tabela exinte ou nao, ela considera
 # que a tabela exista.
 #
 # Modo de usar: python adm_site.py <-i (url_site)> <-d (Codigo ID)>
